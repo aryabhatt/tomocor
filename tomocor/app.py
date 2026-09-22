@@ -64,7 +64,7 @@ class CorWindow(QtWidgets.QMainWindow):
         self.image_view = pg.GraphicsLayoutWidget()
         self.image_view.addItem(self.vb)
         self.base = pg.ImageItem()  # dimmed 0 deg image: visible outside the overlap
-        self.base.setOpacity(0.3)
+        self.base.setOpacity(0.6)
         self.over = pg.ImageItem()  # composite of the overlap only
         self.vb.addItem(self.base)
         self.vb.addItem(self.over)

@@ -6,6 +6,7 @@ build-backend = "setuptools.build_meta"
 name = "tomocor"
 version = "0.1.0"
 description = "Interactive center-of-rotation finder for tomographic projections"
+license = "BSD-2-Clause"
 requires-python = ">=3.10"
 dependencies = [
     "numpy",
