@@ -18,6 +18,7 @@ dependencies = [
 
 [project.scripts]
 tomocor = "tomocor.app:main"
+tomocor-batch-cor = "tomocor.batch:main"
 
 [tool.setuptools.packages.find]
 include = ["tomocor*"]
