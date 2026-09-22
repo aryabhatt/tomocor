@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tomocor"
+version = "0.1.0"
+description = "Interactive center-of-rotation finder for tomographic projections"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy",
+    "scipy",
+    "h5py",
+    "pyqtgraph",
+    "PyQt6",
+]
+
+[project.scripts]
+tomocor = "tomocor.app:main"
+
+[tool.setuptools.packages.find]
+include = ["tomocor*"]
